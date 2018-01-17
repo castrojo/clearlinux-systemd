@@ -1,5 +1,5 @@
 [Unit]
-Description=Run flatpak update weekly and on boot
+Description=Run flatpak update daily and on boot
 
 [Timer]
 OnBootSec=15min
