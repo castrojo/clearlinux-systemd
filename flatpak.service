@@ -1,0 +1,8 @@
+[Unit]
+Description=flatpak update service
+
+[Service]
+ExecStart=/usr/bin/flatpak update -y
+
+[Install]
+WantedBy=multi-user.target
